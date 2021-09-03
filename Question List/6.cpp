@@ -1,6 +1,6 @@
 /*
 Problem :
-Write a program to reverse an array or string
+Write a program to reverse an array or string.
 
 Difficulty Level : Basic
 Last Updated : 08 Sep, 2020

@@ -2,7 +2,8 @@
 
 /*  Difficulty: Easy   
 
-vector<arr>*/
+vector<arr>
+*/
 
 #include <iostream>
 #include <vector>

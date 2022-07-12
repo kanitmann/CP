@@ -22,10 +22,17 @@ using namespace std;
 int main()
 {
     vector<int> v1 = {1, 2, 4, 7, 8};
-    make_heap(v1.begin(), v1.end());
+    make_heap(v1.begin(), v1.end()); // default is max_heap
     cout << "Heap: ";
     for (auto i : v1)
         cout << i << " ";
+
     cout << "\nMax element: " << v1.front();
     return 0;
+
+    // sort
+    sort_heap(v1.begin(), v1.end());
+    cout << "Sorted: ";
+    for (auto i : v1)
+        cout << i << " ";
 }
